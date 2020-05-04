@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Calender"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="Book New Event"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:paddingTop="15dp"></CalendarView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            ></ImageView>
+        <EditText
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black">
+        </EditText>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            ></ImageView>
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loctaion"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"></EditText>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            ></ImageView>
+
+
+
+        <EditText
+            android:id="@+id/phnenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"></EditText>
+
+
+        <Button
+            android:id="@+id/save"
+            android:onClick="save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save appointment"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            ></Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            ></ImageView>
+
+
+        <Button
+            android:id="@+id/viewEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Events"
+            android:onClick="View"
+            android:textColorHint="@android:color/black"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            >
+        </Button>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+

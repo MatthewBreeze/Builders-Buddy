@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/Email"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/Sign_in"
+        android:layout_width="306dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/common_signin_button_text"
+        android:visibility="visible"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/black"
+        android:background="@drawable/roundedbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        tools:visibility="visible"
+        android:onClick="Login"
+        />
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="307dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/black"
+        android:text="Register"
+        android:onClick="Register"
+        app:layout_constraintStart_toStartOf="@+id/Sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/Sign_in" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="273dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/roundedbutton"
+        android:onClick="Google"
+        android:text="Sign In With Google"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sign_in" />
+
+    <Button
+        android:id="@+id/forgotPassword"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/roundedbutton"
+        android:onClick="forgotemail"
+        android:text="Forgot Password"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sign_in" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

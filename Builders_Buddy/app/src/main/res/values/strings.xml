@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Builders_Buddy</string>
+    <string name="title_activity_find_job">Map</string>
+    <string name="title_activity_locate_job">Map</string>
+</resources>

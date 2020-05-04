@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invoice.AddInvoice"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/Title"
+            android:layout_width="189dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+        <EditText
+            android:id="@+id/jobName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job Name"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black">
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+
+            >
+
+            <EditText
+                android:id="@+id/Hours"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Man Hours"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"></EditText>
+
+            <EditText
+                android:id="@+id/pricePerHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hourly rate"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"></EditText>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Material"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <EditText
+            android:id="@+id/Materials"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Materials"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black">
+
+        </EditText>
+        <EditText
+            android:id="@+id/QTY"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:hint="QTY"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black">
+
+        </EditText>
+
+            <EditText
+                android:id="@+id/Price"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:hint="Price Per Unit"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black">
+
+            </EditText>
+
+
+    </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+        <Button
+            android:id="@+id/addMaterials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Materials"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:onClick="addMaterials"
+
+            ></Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            ></ImageView>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Invoice"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:onClick="SaveInvoice"
+            ></Button>
+
+    </LinearLayout>
+</LinearLayout>

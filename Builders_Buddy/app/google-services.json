@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "541596799952",
+    "firebase_url": "https://builders-buddy.firebaseio.com",
+    "project_id": "builders-buddy",
+    "storage_bucket": "builders-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541596799952:android:535b03d137ab38b10ddfd5",
+        "android_client_info": {
+          "package_name": "com.example.builders_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541596799952-reqpfqneukq4a6h7bpomlib8hqvhdlqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.builders_buddy",
+            "certificate_hash": "10f5d9f030bcecae9447339ad23d4696a04a4c6d"
+          }
+        },
+        {
+          "client_id": "541596799952-gfi038cvkj08jo07pgaojkbf83vmd4lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.builders_buddy",
+            "certificate_hash": "a47d0e2597200523b8bc5dfa43fecb96e538154d"
+          }
+        },
+        {
+          "client_id": "541596799952-djjlapki7cl5pm7efl7uspvodm34sv6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHxmsXKFeV8TY0_QCfvgnE9WOsT9Bg1nE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541596799952-djjlapki7cl5pm7efl7uspvodm34sv6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541596799952:android:2c81344f2a8dd1dd0ddfd5",
+        "android_client_info": {
+          "package_name": "com.example.buildersbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541596799952-628h8jrvf3r1gslvturjkv1qaetcaj1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buildersbuddy",
+            "certificate_hash": "10f5d9f030bcecae9447339ad23d4696a04a4c6d"
+          }
+        },
+        {
+          "client_id": "541596799952-djjlapki7cl5pm7efl7uspvodm34sv6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHxmsXKFeV8TY0_QCfvgnE9WOsT9Bg1nE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541596799952-djjlapki7cl5pm7efl7uspvodm34sv6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

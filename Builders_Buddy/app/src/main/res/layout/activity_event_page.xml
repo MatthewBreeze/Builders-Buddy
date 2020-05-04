@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Events.EventPage"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    >
+
+
+    <ImageView
+        android:id="@+id/Title"
+        android:layout_width="189dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp">
+
+    </ImageView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/event"
+    android:textSize="30dp"
+    android:textColor="@android:color/black"
+    ></TextView>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+        ></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumber"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            ></TextView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+        ></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="locate Job"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:onClick="find"
+            ></Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Call Job"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:onClick="callJob"
+            ></Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="SMS client"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@android:color/darker_gray"
+        android:onClick="textclient"
+        ></Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Delete Event"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:onClick="Del"
+            ></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tax.May"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="May Receipts"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_break"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Capture receipt"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@android:color/darker_gray"
+        android:onClick="TakeImage"
+        >
+    </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_break"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/view"
+        android:src="@drawable/logo"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_break"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Purchase Reason"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"></EditText>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_break"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+
+    <EditText
+        android:id="@+id/Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Total in £"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"></EditText>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_break"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Save"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/save"
+        android:onClick="save"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="View Spending"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/ViewAll"
+        android:onClick="ViewAll"
+        >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".tax.ReceiptTotal"
+android:orientation="vertical"
+android:background="@android:color/holo_orange_light"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="Receipts"
+    android:textSize="20dp"
+    android:textColor="@android:color/black"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    >
+</TextView>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/line_break"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="10dp"
+    ></ImageView>
+
+    <TextView
+        android:id="@+id/totalValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_break"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

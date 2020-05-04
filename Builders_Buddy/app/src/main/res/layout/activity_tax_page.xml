@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tax.TaxPage"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    android:scrollbars="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:text="January"
+            android:onClick="January"
+
+            >
+
+        </Button>
+
+        >
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="February"
+            android:padding="10dp"
+            android:text="February"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="March"
+            android:padding="10dp"
+            android:text="March"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"></Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="April"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="April"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="May"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="May"
+            >
+
+        </Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="June"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="June"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="July"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="July"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="August"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="August"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="September"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="September"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="October"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="October"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="November"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="November"
+            >
+
+        </Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="December"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp"
+            android:onClick="December"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home_Page"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    >
+
+
+    <ImageView
+        android:id="@+id/Title"
+        android:layout_width="189dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+        <Button
+            android:id="@+id/tax"
+            android:layout_width="match_parent"
+            android:layout_height="225px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:onClick="TaxPage"
+            android:padding="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:text="Tax"
+            >
+
+        </Button>
+
+>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+        <Button
+            android:id="@+id/hEvents"
+            android:layout_width="match_parent"
+            android:layout_height="225px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="Calender"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:text="Events"
+            >
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+        <Button
+            android:id="@+id/invoice"
+            android:layout_width="match_parent"
+            android:layout_height="225px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="JobsList"
+            android:padding="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:text="Invoices"
+            android:layout_marginTop="10dp"
+            >
+
+            </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+
+        <Button
+            android:id="@+id/tradeCards"
+            android:layout_width="match_parent"
+            android:layout_height="225px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="TradeCards"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:text="Trade Cards"
+            ></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_break"
+            android:layout_marginRight="15dp"
+            ></ImageView>
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="225px"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Logout"
+            android:layout_marginTop="10dp"
+            android:onClick="Logout"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+</LinearLayout>
